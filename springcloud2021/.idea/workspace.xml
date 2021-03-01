@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="edb47a6f-6261-43b9-bb99-3f95359da848" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../SsmTour/houduan1/src/main/java/com/fang/ssm/dao/IProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SsmTour/houduan1/src/main/java/com/fang/ssm/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SsmTour/houduan1/src/main/java/com/fang/ssm/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SsmTour/houduan1/src/main/java/com/fang/ssm/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SsmTour/houduan1/src/main/java/com/fang/ssm/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SsmTour/houduan1/src/main/java/com/fang/ssm/web/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SsmTour/houduan1/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SsmTour/houduan1/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SsmTour/houduan1/src/main/resources/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/free-mybatis-generator-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-api-commons/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/fang/common/entities/CommonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/fang/common/entities/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-api-commons/target/classes/com/fang/common/entities/CommonResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-api-commons/target/classes/com/fang/common/entities/Payment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/src/main/java/com/atguigu/springcloud/HystrixDashboardMain9001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/target/classes/com/atguigu/springcloud/HystrixDashboardMain9001.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/cloud-consumer-order80.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/fang/order/OrderMain80.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/fang/order/config/RestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/fang/order/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/fang/order/OrderMain80.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/fang/order/config/RestTemplateConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/fang/order/controller/OrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/src/main/java/com/fang/zk80/OrderZKMain80.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/src/main/java/com/fang/zk80/client/PaymentClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/src/main/java/com/fang/zk80/config/ApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/src/main/java/com/fang/zk80/controller/OrderZKController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/src/main/java/com/fang/zk80/hystrix/HystrixHandleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/target/classes/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/target/classes/com/fang/zk80/OrderZKMain80.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/target/classes/com/fang/zk80/client/PaymentClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/target/classes/com/fang/zk80/config/ApplicationContextConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/target/classes/com/fang/zk80/controller/OrderZKController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/target/classes/com/fang/zk80/hystrix/HystrixHandleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerzk-order80/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/cloud-eureka-server7001.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/java/com/fang/eureka/EurekaMain7001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/target/classes/com/fang/eureka/EurekaMain7001.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/cloud-provider-payment8001.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/fang/payment/PaymentMain8001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/fang/payment/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/fang/payment/dao/PaymentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/fang/payment/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/fang/payment/service/impl/PaymentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/mapper/PaymentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/fang/payment/PaymentMain8001.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/fang/payment/controller/PaymentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/fang/payment/dao/PaymentDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/fang/payment/service/PaymentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/fang/payment/service/impl/PaymentServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/mapper/PaymentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/cloud-provider-payment8004.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/src/main/java/com/fang/zk/PaymentMain8004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/src/main/java/com/fang/zk/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/src/main/java/com/fang/zk/feign/PaymentFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/src/main/java/com/fang/zk/service/HystrixService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/src/main/java/com/fang/zk/utils/JsonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/src/main/java/com/fang/zk/utils/QiniuUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/target/classes/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/target/classes/com/fang/zk/PaymentMain8004.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/target/classes/com/fang/zk/controller/PaymentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/target/classes/com/fang/zk/feign/PaymentFeign.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/target/classes/com/fang/zk/service/HystrixService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/target/classes/com/fang/zk/utils/JsonUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004/target/classes/com/fang/zk/utils/QiniuUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/pom.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="springcloud2021" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\javaCode\springcloud2021\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\apache-maven-3.3.9\repository" />
+        <option name="mavenHome" value="D:/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectId" id="1ovq6pRx2Ys1CmCP5ySXfSkqgkO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-provider-payment8004/src/main/java/com/fang/zk/utils" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15527344" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="org.mvnsearch.intellij.plugin.zookeeper.ui.ZkProjectConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.fang.order" />
+      <recent name="com.fang.eureka" />
+      <recent name="com.fang.payment" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\javaCode\springcloud2021\cloud-provider-payment8004\src\main\java\com\fang\zk\utils" />
+      <recent name="D:\javaCode\springcloud2021" />
+      <recent name="D:\javaCode\springcloud2021\cloud-consumer-order80\src\main\resources" />
+      <recent name="D:\javaCode\springcloud2021\cloud-eureka-server7001\src\main\resources" />
+      <recent name="D:\javaCode\springcloud2021\cloud-provider-payment8001\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.OrderZKMain80">
+    <configuration name="EurekaMain7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-eureka-server7001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fang.eureka.EurekaMain7001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HystrixDashboardMain9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-hystrix-dashboard9001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.HystrixDashboardMain9001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-order80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fang.order.OrderMain80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderZKMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-consumerzk-order80" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fang.zk80.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fang.zk80.OrderZKMain80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-payment8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fang.payment.PaymentMain8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain8004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-payment8004" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fang.zk.PaymentMain8004" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain8014" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-payment8004" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fang.zk.PaymentMain8004" />
+      <option name="VM_PARAMETERS" value="-DPORT=8014" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.EurekaMain7001" />
+      <item itemvalue="Spring Boot.OrderMain80" />
+      <item itemvalue="Spring Boot.PaymentMain8001" />
+      <item itemvalue="Spring Boot.PaymentMain8004" />
+      <item itemvalue="Spring Boot.PaymentMain8014" />
+      <item itemvalue="Spring Boot.OrderZKMain80" />
+      <item itemvalue="Spring Boot.HystrixDashboardMain9001" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.OrderZKMain80" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.1778809" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\situbiyi\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="edb47a6f-6261-43b9-bb99-3f95359da848" name="Default Changelist" comment="" />
+      <created>1614177238320</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614177238320</updated>
+      <workItem from="1614177242300" duration="2165000" />
+      <workItem from="1614179426850" duration="3526000" />
+      <workItem from="1614183042412" duration="7038000" />
+      <workItem from="1614423497776" duration="24191000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ceshi" />
+    <option name="LAST_COMMIT_MESSAGE" value="ceshi" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="21" key="#Deployment" timestamp="1614606060825">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="21" key="#Deployment/0.0.1366.728@0.0.1366.728" timestamp="1614606060825" />
+    <state x="275" y="21" key="#Project_Structure" timestamp="1614426635279">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="21" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1614426635279" />
+    <state x="137" y="18" width="1174" height="692" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614431595557">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="18" width="1174" height="692" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1614431595557" />
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1614509886241">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1614509886241" />
+    <state x="269" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1614506477457">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="269" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1614506477457" />
+    <state x="233" y="0" key="CommitChangelistDialog2" timestamp="1614606725042">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="233" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1614606725042" />
+    <state x="463" y="53" key="FileChooserDialogImpl" timestamp="1614435491369">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="53" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1614435491369" />
+    <state width="1062" height="231" key="GridCell.Tab.0.bottom" timestamp="1614605932480">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1062" height="231" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1614605932480" />
+    <state width="1062" height="231" key="GridCell.Tab.0.center" timestamp="1614605932480">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1062" height="231" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1614605932480" />
+    <state width="1062" height="231" key="GridCell.Tab.0.left" timestamp="1614605932479">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1062" height="231" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1614605932479" />
+    <state width="1062" height="231" key="GridCell.Tab.0.right" timestamp="1614605932480">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1062" height="231" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1614605932480" />
+    <state width="1062" height="231" key="GridCell.Tab.1.bottom" timestamp="1614605932480">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1062" height="231" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1614605932480" />
+    <state width="1062" height="231" key="GridCell.Tab.1.center" timestamp="1614605932480">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1062" height="231" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1614605932480" />
+    <state width="1062" height="231" key="GridCell.Tab.1.left" timestamp="1614605932480">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1062" height="231" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1614605932480" />
+    <state width="1062" height="231" key="GridCell.Tab.1.right" timestamp="1614605932480">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1062" height="231" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1614605932480" />
+    <state width="1062" height="231" key="GridCell.Tab.2.bottom" timestamp="1614605932480">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1062" height="231" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1614605932480" />
+    <state width="1062" height="231" key="GridCell.Tab.2.center" timestamp="1614605932480">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1062" height="231" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1614605932480" />
+    <state width="1062" height="231" key="GridCell.Tab.2.left" timestamp="1614605932480">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1062" height="231" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1614605932480" />
+    <state width="1062" height="231" key="GridCell.Tab.2.right" timestamp="1614605932480">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1062" height="231" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1614605932480" />
+    <state x="323" y="60" key="NewModule_or_Project.wizard" timestamp="1614435493069">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="323" y="60" key="NewModule_or_Project.wizard/0.0.1366.728@0.0.1366.728" timestamp="1614435493069" />
+    <state x="254" y="25" key="Registry" timestamp="1614182960620">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="254" y="25" key="Registry/0.0.1366.728@0.0.1366.728" timestamp="1614182960620" />
+    <state x="289" y="0" key="SettingsEditor" timestamp="1614439708336">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="289" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1614439708336" />
+    <state x="296" y="97" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1614606031591">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="296" y="97" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1366.728@0.0.1366.728" timestamp="1614606031591" />
+    <state x="475" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614432028449">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="475" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1614432028449" />
+    <state x="359" y="95" width="647" height="538" key="find.popup" timestamp="1614506946671">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="359" y="95" width="647" height="538" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1614506946671" />
+    <state x="61" y="76" key="new project wizard" timestamp="1614426167409">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="61" y="76" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1614426167409" />
+  </component>
+  <component name="ZooKeeperConfig">
+    <option name="host" value="192.168.160.132" />
+    <option name="port" value="2181" />
+    <option name="charset" value="UTF-8" />
+    <option name="whitePaths" value="" />
+  </component>
+</project>
